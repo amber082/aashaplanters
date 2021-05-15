@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/aashaplanters/static/css/main.43cd3aab.chunk.css",
-    "main.js": "/aashaplanters/static/js/main.417fb29c.chunk.js",
-    "main.js.map": "/aashaplanters/static/js/main.417fb29c.chunk.js.map",
+    "main.js": "/aashaplanters/static/js/main.836577f6.chunk.js",
+    "main.js.map": "/aashaplanters/static/js/main.836577f6.chunk.js.map",
     "runtime-main.js": "/aashaplanters/static/js/runtime-main.81f58df3.js",
     "runtime-main.js.map": "/aashaplanters/static/js/runtime-main.81f58df3.js.map",
     "static/css/2.4d4433c4.chunk.css": "/aashaplanters/static/css/2.4d4433c4.chunk.css",
@@ -28,6 +28,6 @@
     "static/css/2.4d4433c4.chunk.css",
     "static/js/2.a6df08a8.chunk.js",
     "static/css/main.43cd3aab.chunk.css",
-    "static/js/main.417fb29c.chunk.js"
+    "static/js/main.836577f6.chunk.js"
   ]
 }
