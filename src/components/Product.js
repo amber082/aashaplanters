@@ -34,7 +34,7 @@ import {
               pos: 'absolute',
               top: 5,
               left: 0,
-              backgroundImage: `url(${IMAGE})`,
+              backgroundImage: `url(${process.env.REACT_APP_PROXY+IMAGE})`,
               filter: 'blur(10px)',
               zIndex: -1,
             }}
@@ -48,7 +48,7 @@ import {
               height={230}
               width={282}
               objectFit={'cover'}
-              src={IMAGE}
+              src={process.env.REACT_APP_PROXY+IMAGE}
             />
           </Box>
           <Stack pt={10} align={'center'}>

@@ -46,7 +46,7 @@ export default function Navbar() {
 
     useEffect(() => {
       const fetchData = async () => {
-          const result = await axios.get('/api/category');
+          const result = await axios.get(process.env.REACT_APP_PROXY+'/api/category');
           setData(result.data);
           setIsLoading(false);
       };

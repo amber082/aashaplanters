@@ -51,7 +51,7 @@ export default function Ourproducts() {
 
     useEffect(() => {
         const fetchData = async () => {
-            const result = await axios.get('/api/landproducts');
+            const result = await axios.get(process.env.REACT_APP_PROXY+'/api/landproducts');
             setData(result.data);
             setIsLoading(false);
         };

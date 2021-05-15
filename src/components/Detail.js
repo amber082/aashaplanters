@@ -32,7 +32,7 @@ export default function Detail() {
 
     useEffect(() => {
         const fetchData = async () => {
-            const result = await axios.get('/api/detail',{
+            const result = await axios.get(process.env.REACT_APP_PROXY+'/api/detail',{
                 params: {
                     id:id
                 }
@@ -49,7 +49,7 @@ export default function Detail() {
             <Box boxSize={{base:'sm',md:'lg'}} mx='20' my='10' boxShadow='2xl'>
                 <Slider {...settings}>
                     {data.images.map(item => (
-                        <Image src={item} objectFit='fill' />
+                        <Image src={process.env.REACT_APP_PROXY+item} objectFit='fill' />
                     ))}
                 </Slider>
             </Box>

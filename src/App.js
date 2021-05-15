@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { HashRouter, Switch, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Landing from './components/Landing'
 import About from './components/About'
@@ -12,17 +12,17 @@ import Detail from './components/Detail'
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Navbar/>
         <Switch>
           <Route exact path="/" component={Landing}/>
           <Route exact path="/about" component={About}/>
           <Route exact path="/contact" component={Contact}/>
           <Route exact path="/gallery/:cat/:sub" component={Gallery}/>
-          <Route path='/detail/:id' component={Detail}/>
+          <Route exact path='/detail/:id' component={Detail}/>
         </Switch>
         <Footer/>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

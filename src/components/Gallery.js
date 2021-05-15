@@ -11,7 +11,7 @@ export default function Gallery() {
 
     useEffect(() => {
         const fetchData = async () => {
-            const result = await axios.get('/api/products',{
+            const result = await axios.get(process.env.REACT_APP_PROXY+'/api/products',{
                 params: {
                     cat: cat,
                     sub: sub
