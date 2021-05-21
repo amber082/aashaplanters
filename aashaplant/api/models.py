@@ -39,4 +39,14 @@ class ProductImage(models.Model):
         return mark_safe('<img src="/media/%s" width="100" height="100" />' % (self.image))
         
     image_tag.short_description = 'Image'
-    
+
+class Contact(models.Model):
+    name = models.CharField(max_length=256)
+    phone = models.CharField(max_length=20, null=True, blank=True)
+    email = models.EmailField()
+    requirements = models.TextField()
+    time_contacted = models.DateTimeField(auto_now=True)
+    completed = models.BooleanField(default=False)
+
+    def __str__(self):
+        return self.name

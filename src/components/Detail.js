@@ -1,9 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {useParams} from 'react-router-dom'
-import Image1 from '../assets/plant_test.jpg'
-import Image2 from '../assets/plant_test2.jpg'
-import Image3 from '../assets/plant_test3.jpg'
-import {Box, Button, Flex, Image, Stack, Text, Modal, ModalOverlay, ModalContent, ModalHeader, ModalCloseButton, ModalBody, ModalFooter, useDisclosure} from '@chakra-ui/react'
+import {Box, Button, Flex, Image, Stack, Text, Modal, ModalOverlay, ModalContent, ModalCloseButton, useDisclosure} from '@chakra-ui/react'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -64,7 +61,7 @@ export default function Detail() {
                 <ModalOverlay />
                 <ModalContent>
                     <ModalCloseButton/>
-                <Howwedo/>
+                    <Howwedo/>
                 </ModalContent>
             </Modal>
         </Flex> )

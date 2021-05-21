@@ -22,7 +22,7 @@ export default function Ourproducts() {
         infinite: true,
         speed: 800,
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         centerMode: true,
         arrows:true,
         easing:true,

@@ -29,7 +29,7 @@ export default function Gallery() {
             {isLoading ? (<Text mb='100%'>Loading ...</Text>) : (
             <SimpleGrid columns={{base:'1',md:'3',lg:'4'}} spacing='10' m='10'>
                 {data.map(item => (
-                    <Link to={'/detail/'+ item.id} ><Product IMAGE={item.image} name={item.name} price={item.price} key={item.id}/></Link>
+                    <Link to={'/detail/'+ item.id} key={item.id}><Product IMAGE={item.image} name={item.name} price={item.price} key={item.id}/></Link>
                 ))}
             </SimpleGrid> )}
         </Box>

@@ -1,8 +1,10 @@
 from django.shortcuts import render, HttpResponse
-from django.http import HttpResponseNotFound
-from .models import Product, ProductImage, Category, Subcategory
+from django.http import HttpResponseNotFound, JsonResponse
+from .models import Product, ProductImage, Category, Subcategory, Contact
 from django.core import serializers
 import json
+from django.views.decorators.csrf import csrf_exempt
+from django.utils.decorators import method_decorator
 
 def home(request):
     return (HttpResponse('<h1>Resticted Access</h1>'))
@@ -86,3 +88,20 @@ def categoryDetail(request):
             'subcats':subcat_list
         })
     return HttpResponse(json.dumps(category_list),content_type = 'application/json')
+
+@method_decorator(csrf_exempt)
+def saveContact(request):
+    if request.method == 'POST':
+        data = json.loads(request.body)
+        name = data['name']
+        phone = data['phone']
+        email = data['email']
+        req = data['req']
+        try:
+            contact = Contact.objects.create(name=name,phone=phone,email=email,requirements=req)
+            return JsonResponse({'message':'success'}, status=200)
+        except Exception as e:
+            print(e)
+            return JsonResponse({'message':'error'}, status=500)
+    else:
+        return HttpResponse('<h1>GET request not allowed</h1>')

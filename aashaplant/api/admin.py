@@ -19,7 +19,11 @@ class ProductAdmin(admin.ModelAdmin):
     def display_name(self,obj):
         return str(obj.subcategory) + '-' + obj.name
 
+class ContactAdmin(admin.ModelAdmin):
+    list_display = ("name","time_contacted","completed")
+
 admin.site.register(Category)
 admin.site.register(Subcategory)
 admin.site.register(Product, ProductAdmin)
 admin.site.register(ProductImage, ProductImageAdmin)
+admin.site.register(Contact,ContactAdmin)
