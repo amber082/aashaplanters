@@ -1,33 +1,35 @@
 {
   "files": {
     "main.css": "/aashaplanters/static/css/main.43cd3aab.chunk.css",
-    "main.js": "/aashaplanters/static/js/main.836577f6.chunk.js",
-    "main.js.map": "/aashaplanters/static/js/main.836577f6.chunk.js.map",
-    "runtime-main.js": "/aashaplanters/static/js/runtime-main.81f58df3.js",
-    "runtime-main.js.map": "/aashaplanters/static/js/runtime-main.81f58df3.js.map",
+    "main.js": "/aashaplanters/static/js/main.c69ba17f.chunk.js",
+    "main.js.map": "/aashaplanters/static/js/main.c69ba17f.chunk.js.map",
+    "runtime-main.js": "/aashaplanters/static/js/runtime-main.80815932.js",
+    "runtime-main.js.map": "/aashaplanters/static/js/runtime-main.80815932.js.map",
     "static/css/2.4d4433c4.chunk.css": "/aashaplanters/static/css/2.4d4433c4.chunk.css",
-    "static/js/2.a6df08a8.chunk.js": "/aashaplanters/static/js/2.a6df08a8.chunk.js",
-    "static/js/2.a6df08a8.chunk.js.map": "/aashaplanters/static/js/2.a6df08a8.chunk.js.map",
-    "static/js/3.cadfe1d7.chunk.js": "/aashaplanters/static/js/3.cadfe1d7.chunk.js",
-    "static/js/3.cadfe1d7.chunk.js.map": "/aashaplanters/static/js/3.cadfe1d7.chunk.js.map",
+    "static/js/2.41b5ee8c.chunk.js": "/aashaplanters/static/js/2.41b5ee8c.chunk.js",
+    "static/js/2.41b5ee8c.chunk.js.map": "/aashaplanters/static/js/2.41b5ee8c.chunk.js.map",
+    "static/js/3.29dc6cf4.chunk.js": "/aashaplanters/static/js/3.29dc6cf4.chunk.js",
+    "static/js/3.29dc6cf4.chunk.js.map": "/aashaplanters/static/js/3.29dc6cf4.chunk.js.map",
     "index.html": "/aashaplanters/index.html",
     "static/css/2.4d4433c4.chunk.css.map": "/aashaplanters/static/css/2.4d4433c4.chunk.css.map",
     "static/css/main.43cd3aab.chunk.css.map": "/aashaplanters/static/css/main.43cd3aab.chunk.css.map",
-    "static/js/2.a6df08a8.chunk.js.LICENSE.txt": "/aashaplanters/static/js/2.a6df08a8.chunk.js.LICENSE.txt",
+    "static/js/2.41b5ee8c.chunk.js.LICENSE.txt": "/aashaplanters/static/js/2.41b5ee8c.chunk.js.LICENSE.txt",
     "static/media/about.8189c558.svg": "/aashaplanters/static/media/about.8189c558.svg",
     "static/media/contact.3e54d23e.svg": "/aashaplanters/static/media/contact.3e54d23e.svg",
+    "static/media/error.b04bd2c3.svg": "/aashaplanters/static/media/error.b04bd2c3.svg",
     "static/media/main.ecfde59b.svg": "/aashaplanters/static/media/main.ecfde59b.svg",
     "static/media/plant_test.6c5b5591.jpg": "/aashaplanters/static/media/plant_test.6c5b5591.jpg",
     "static/media/plant_test2.7e0b32eb.jpg": "/aashaplanters/static/media/plant_test2.7e0b32eb.jpg",
     "static/media/plant_test3.417f5230.jpg": "/aashaplanters/static/media/plant_test3.417f5230.jpg",
     "static/media/slick-theme.css": "/aashaplanters/static/media/slick.c94f7671.ttf",
+    "static/media/success.da097a1d.svg": "/aashaplanters/static/media/success.da097a1d.svg",
     "static/media/whatwedo.462cedf6.svg": "/aashaplanters/static/media/whatwedo.462cedf6.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.81f58df3.js",
+    "static/js/runtime-main.80815932.js",
     "static/css/2.4d4433c4.chunk.css",
-    "static/js/2.a6df08a8.chunk.js",
+    "static/js/2.41b5ee8c.chunk.js",
     "static/css/main.43cd3aab.chunk.css",
-    "static/js/main.836577f6.chunk.js"
+    "static/js/main.c69ba17f.chunk.js"
   ]
 }
