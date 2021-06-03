@@ -91,6 +91,7 @@ def categoryDetail(request):
 
 @method_decorator(csrf_exempt)
 def saveContact(request):
+    #method to handle contact form
     if request.method == 'POST':
         data = json.loads(request.body)
         name = data['name']
